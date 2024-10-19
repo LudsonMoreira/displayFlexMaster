@@ -18,7 +18,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            flex-wrap: wrap-reverse;
+            flex-wrap: wrap;
             background-color: #000000;
         }
 
@@ -26,7 +26,6 @@
             position: relative;
             width: 20%;
             height: 20%;
-            background-color: #ababab;
             color: #ffffff;
             border: 2px solid #ffffff;
             border-radius: 5em;
@@ -38,23 +37,37 @@
         }
 
         .box:hover{
-            border: 2px solid #ff0000;
-            color: #ff0000;
+            border: 2px solid #ff02c0;
+            color: #ff02c0;
+        }
+
+        .red{
+            background-color: #ff0000;
+        }
+
+        .green{
+            background-color: #00ff00;
+        }
+
+        .blue{
+            background-color: #0000ff;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">6</div>
-        <div class="box">7</div>
-        <div class="box">8</div>
-        <div class="box">9</div>
-        <div class="box">10</div>
+        <div class="box red">1</div>
+        <div class="box green">2</div>
+        <div class="box blue">3</div>
+        <div class="box red">4</div>
+        <div class="box green">5</div>
+        <div class="box blue">6</div>
+        <div class="box red">7</div>
+        <div class="box green">8</div>
+        <div class="box blue">9</div>
+        <div class="box red">10</div>
+        <div class="box green">11</div>
+        <div class="box blue">12</div>
     </div>
 </body>
 </html>
